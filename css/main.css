@@ -59,6 +59,17 @@ form textarea {
   resize: none;
 }
 
+.screenreader-text {
+  position: absolute;
+  left: -999px;
+  width:1px;
+  height: 1px;
+  top: auto;
+
+}
+   
+
+
 form button {
   background: none;
   border: 2px solid black;
